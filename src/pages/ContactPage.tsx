@@ -23,7 +23,7 @@ export default function ContactPage() {
       description: "Thank you for contacting us. We'll get back to you soon.",
     });
     setFormData({ name: "", email: "", subject: "", message: "" });
-  };
+  }; 
 
   return (
     <div className="min-h-screen py-20">
