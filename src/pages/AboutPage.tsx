@@ -2,10 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { 
-  Users, 
-  Target, 
-  Lightbulb, 
+import {
+  Users,
+  Target,
+  Lightbulb,
   Award,
   Github,
   Linkedin,
@@ -14,61 +14,76 @@ import {
   Cpu,
   Smartphone,
   Cloud,
-  ArrowRight
+  ArrowRight,
 } from "lucide-react";
 
 export default function AboutPage() {
   const team = [
     {
       name: "Sakar Rana",
-      role: "Front end Devloper",
-      bio: "",
-      icon: Heart
+      role: "Frontend Developer",
+      bio: "Passionate about building seamless user interfaces.",
+      icon: Heart,
     },
     {
       name: "Gourav Batham",
-      role: "Backend Devloper",
-      bio: "",
-      icon: Cpu
+      role: "Backend Developer",
+      bio: "Specializes in secure and scalable backend systems.",
+      icon: Cpu,
     },
     {
       name: "Rohan Singh",
-      role: "UI/UX",
-      bio: "",
-      icon: Smartphone
+      role: "UI/UX Designer",
+      bio: "Designs intuitive and engaging user experiences.",
+      icon: Smartphone,
     },
     {
       name: "Pramit Singh",
-      role: "Idea Genration",
-      bio: "",
-      icon: Cloud
-    }
+      role: "Idea Generation",
+      bio: "Brings innovative healthcare solutions to life.",
+      icon: Cloud,
+    },
   ];
-
- 
-  
 
   const values = [
     {
       icon: Heart,
       title: "Patient-Centered Care",
-      description: "Every decision we make is guided by what's best for patient health and well-being."
+      description: "Every decision we make is guided by what's best for patient health and well-being.",
     },
     {
       icon: Target,
       title: "Early Detection",
-      description: "We believe that early detection saves lives and prevents medical emergencies."
+      description: "We believe that early detection saves lives and prevents medical emergencies.",
     },
     {
       icon: Users,
       title: "Family Connection",
-      description: "Health monitoring isn't just about the patient - it's about peace of mind for families."
+      description: "Health monitoring isn't just about the patient - it's about peace of mind for families.",
     },
     {
       icon: Award,
       title: "Innovation Excellence",
-      description: "We continuously push the boundaries of what's possible in health technology."
-    }
+      description: "We continuously push the boundaries of what's possible in health technology.",
+    },
+  ];
+
+  const milestones = [
+    {
+      year: "2023",
+      title: "Hackathon Prototype",
+      description: "Developed initial wearable prototype during college hackathon.",
+    },
+    {
+      year: "2024",
+      title: "Beta Testing",
+      description: "Tested with 100+ real users and refined health alert algorithms.",
+    },
+    {
+      year: "2025",
+      title: "Public Launch",
+      description: "Official launch of Sanjeevan Health Monitoring Platform.",
+    },
   ];
 
   const futureGoals = [
@@ -77,7 +92,7 @@ export default function AboutPage() {
     "Develop AI-powered health prediction algorithms",
     "Create partnerships with hospitals and healthcare providers",
     "Launch telemedicine integration for remote consultations",
-    "Implement blockchain for secure health data management"
+    "Implement blockchain for secure health data management",
   ];
 
   return (
@@ -92,8 +107,7 @@ export default function AboutPage() {
             Revolutionizing <span className="text-primary">Healthcare</span> with Technology
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Sanjeevan Support was born from a simple yet powerful idea: what if technology 
-            could predict and prevent medical emergencies before they happen?
+            Sanjeevan Support was born from a simple yet powerful idea: what if technology could predict and prevent medical emergencies before they happen?
           </p>
         </div>
 
@@ -105,22 +119,15 @@ export default function AboutPage() {
                 <div className="space-y-6">
                   <h2 className="text-3xl font-bold text-foreground">Our Story</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    Sanjeevan Support began as a hackathon project when our team witnessed 
-                    the devastating impact of undetected medical emergencies in elderly patients. 
-                    We realized that most health crises have warning signs that go unnoticed.
+                    Sanjeevan Support began as a hackathon project when our team witnessed the devastating impact of undetected medical emergencies in elderly patients.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Our vision was clear: create an intelligent, wearable system that could 
-                    monitor vital signs continuously and alert families before emergencies occur. 
-                    What started as a prototype has evolved into a comprehensive health monitoring platform.
+                    Our vision was clear: create an intelligent, wearable system that could monitor vital signs continuously and alert families before emergencies occur.
                   </p>
-                 
-                    <div className="flex items-center space-x-3">
-                      <div className="w-2 h-2 bg-secondary rounded-full"></div>
-                      <span className="text-sm">Prototype tested with 100+ beta users</span>
-                  
-                   
-                
+                  <div className="flex items-center space-x-3">
+                    <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                    <span className="text-sm">Prototype tested with 100+ beta users</span>
+                  </div>
                 </div>
                 <div className="bg-primary/5 p-6 rounded-lg">
                   <Lightbulb className="h-16 w-16 text-primary mb-4" />
@@ -190,15 +197,9 @@ export default function AboutPage() {
                   </div>
                   <p className="text-muted-foreground text-sm">{member.bio}</p>
                   <div className="flex justify-center space-x-3">
-                    <Button variant="ghost" size="sm">
-                      <Github className="h-4 w-4" />
-                    </Button>
-                    <Button variant="ghost" size="sm">
-                      <Linkedin className="h-4 w-4" />
-                    </Button>
-                    <Button variant="ghost" size="sm">
-                      <Mail className="h-4 w-4" />
-                    </Button>
+                    <Button variant="ghost" size="sm"><Github className="h-4 w-4" /></Button>
+                    <Button variant="ghost" size="sm"><Linkedin className="h-4 w-4" /></Button>
+                    <Button variant="ghost" size="sm"><Mail className="h-4 w-4" /></Button>
                   </div>
                 </CardContent>
               </Card>
@@ -232,12 +233,9 @@ export default function AboutPage() {
 
         {/* CTA */}
         <div className="text-center space-y-8 bg-muted/30 rounded-2xl p-8">
-          <h2 className="text-3xl font-bold text-foreground">
-            Join Our Mission
-          </h2>
+          <h2 className="text-3xl font-bold text-foreground">Join Our Mission</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Be part of the healthcare revolution. Whether you're a patient, healthcare provider, 
-            or technology enthusiast, there's a place for you in our community.
+            Be part of the healthcare revolution. Whether you're a patient, healthcare provider, or technology enthusiast, there's a place for you in our community.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="lg" asChild>
