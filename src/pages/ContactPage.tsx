@@ -121,7 +121,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Call Us</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 7987068234</p>
                   </div>
                 </div>
               </CardContent>
@@ -135,7 +135,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Visit Us</h3>
-                    <p className="text-muted-foreground">Healthcare Innovation Hub<br />123 Tech Valley, CA 94000</p>
+                    <p className="text-muted-foreground">Samarat Ashok Technological Institute</p>
                   </div>
                 </div>
               </CardContent>
