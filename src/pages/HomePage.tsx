@@ -39,8 +39,12 @@ export default function HomePage() {
       description: "Emergency alerts sent to caregivers and family members"
     }
   ];
-
- 
+   const stats = [
+    { value: "24/7", label: "Monitoring" },
+    { value: "95%", label: "Accuracy" },
+    { value: "30 Days", label: "Battery Life" },
+    { value: "Many", label: "Lives Protected" }
+  ];
 
   return (
     <div className="min-h-screen">
