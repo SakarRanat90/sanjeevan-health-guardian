@@ -45,28 +45,8 @@ export default function AboutPage() {
     }
   ];
 
-  const milestones = [
-    {
-      year: "2023",
-      title: "Hackathon Genesis",
-      description: "Sanjeevan Support was born during a healthcare innovation hackathon, winning first place for most promising health-tech solution."
-    },
-    {
-      year: "2024",
-      title: "Prototype Development",
-      description: "Developed working prototype with basic vital monitoring and alert system using Arduino and initial sensor integration."
-    },
-    {
-      year: "2024",
-      title: "IoT Integration",
-      description: "Advanced to Raspberry Pi-based system with cloud connectivity and real-time data synchronization capabilities."
-    },
-    {
-      year: "Future",
-      title: "Commercial Launch",
-      description: "Planning commercial release with FDA approval, advanced AI predictions, and expanded sensor capabilities."
-    }
-  ];
+ 
+  
 
   const values = [
     {
