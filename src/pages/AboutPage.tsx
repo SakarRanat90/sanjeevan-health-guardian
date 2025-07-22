@@ -45,27 +45,50 @@ export default function AboutPage() {
     }
   ];
 
-  const milestones = [
-    {
-      year: "",
-      title: "",
-      description: ""
-    },
-    {
-      year: "",
-      title: "",
-      description: ""
-    },
-    {
-      year: "",
-      title: "",
-      description: ""
-    },
-    {
-      year: "",
-      title: "",
-      description: ""
-    }
+ const milestones = [
+  {
+    year: "2025",
+    title: "Hackathon Inception",
+    description:
+      "Sanjeevan was conceptualized during a college hackathon to combat undetected health emergencies in elderly patients.",
+  },
+  {
+    year: "2025",
+    title: "Prototype Development",
+    description:
+      "Built the first wearable device prototype with basic vitals monitoring like heart rate and oxygen saturation.",
+  },
+  {
+    year: "2025",
+    title: "Beta Testing & Feedback",
+    description:
+      "Conducted beta testing with 100+ users across different age groups and refined the alert system based on real-life feedback.",
+  },
+  {
+    year: "2026",
+    title: "AI Integration",
+    description:
+      "Integrated AI to predict early warning signs using time-series health data and improved detection accuracy by 40%.",
+  },
+  {
+    year: "2025",
+    title: "Vercel + Cloud Deployment",
+    description:
+      "Launched the live health monitoring platform with secure cloud storage, accessible to users and families.",
+  },
+  {
+    year: "2026",
+    title: "Hospital Collaboration",
+    description:
+      "Partnered with hospitals and clinics to integrate Sanjeevan into real patient care workflows and emergency systems.",
+  },
+  {
+    year: "2027",
+    title: "Global Outreach",
+    description:
+      "Expanded to international markets, focusing on elderly care and rural health monitoring solutions.",
+  },
+
   ];
 
   const values = [
