@@ -20,27 +20,27 @@ import {
 export default function AboutPage() {
   const team = [
     {
-      name: "Dr. Sarah Chen",
-      role: "Medical Technology Lead",
-      bio: "10+ years in healthcare IoT and medical device development",
+      name: "Sakar Rana",
+      role: "Front end Devloper",
+      bio: "",
       icon: Heart
     },
     {
-      name: "Raj Patel",
-      role: "IoT Hardware Engineer",
-      bio: "Specialist in wearable device design and sensor integration",
+      name: "Gourav Batham",
+      role: "Backend Devloper",
+      bio: "",
       icon: Cpu
     },
     {
-      name: "Lisa Zhang",
-      role: "Mobile App Developer",
-      bio: "Expert in healthcare mobile applications and user experience",
+      name: "Rohan Singh",
+      role: "UI/UX",
+      bio: "",
       icon: Smartphone
     },
     {
-      name: "Mike Johnson",
-      role: "Cloud Infrastructure",
-      bio: "Healthcare data security and scalable cloud architecture",
+      name: "Pramit Singh",
+      role: "Idea Genration",
+      bio: "",
       icon: Cloud
     }
   ];
