@@ -114,20 +114,13 @@ export default function AboutPage() {
                     monitor vital signs continuously and alert families before emergencies occur. 
                     What started as a prototype has evolved into a comprehensive health monitoring platform.
                   </p>
-                  <div className="space-y-3">
-                    <div className="flex items-center space-x-3">
-                      <div className="w-2 h-2 bg-primary rounded-full"></div>
-                      <span className="text-sm">Hackathon Winner - Healthcare Innovation 2023</span>
-                    </div>
+                 
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-secondary rounded-full"></div>
                       <span className="text-sm">Prototype tested with 100+ beta users</span>
-                    </div>
-                    <div className="flex items-center space-x-3">
-                      <div className="w-2 h-2 bg-accent rounded-full"></div>
-                      <span className="text-sm">Featured in TechCrunch Health Innovation Summit</span>
-                    </div>
-                  </div>
+                  
+                   
+                
                 </div>
                 <div className="bg-primary/5 p-6 rounded-lg">
                   <Lightbulb className="h-16 w-16 text-primary mb-4" />
