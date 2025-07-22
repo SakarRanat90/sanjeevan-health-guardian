@@ -8,7 +8,7 @@ import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export default function ContactPage() {
-  const { toast } = useToast();
+  const { toast } = useToast(); 
   const [formData, setFormData] = useState({
     name: "",
     email: "",
