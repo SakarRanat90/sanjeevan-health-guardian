@@ -40,12 +40,7 @@ export default function HomePage() {
     }
   ];
 
-  const stats = [
-    { value: "24/7", label: "Monitoring" },
-    { value: "98%", label: "Accuracy" },
-    { value: "30 Days", label: "Battery Life" },
-    { value: "100K+", label: "Lives Protected" }
-  ];
+ 
 
   return (
     <div className="min-h-screen">
