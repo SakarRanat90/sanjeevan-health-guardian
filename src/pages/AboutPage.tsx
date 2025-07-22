@@ -47,24 +47,24 @@ export default function AboutPage() {
 
   const milestones = [
     {
-      year: "2023",
-      title: "Hackathon Genesis",
-      description: "Sanjeevan Support was born during a healthcare innovation hackathon, winning first place for most promising health-tech solution."
+      year: "",
+      title: "",
+      description: ""
     },
     {
-      year: "2024",
-      title: "Prototype Development",
-      description: "Developed working prototype with basic vital monitoring and alert system using Arduino and initial sensor integration."
+      year: "",
+      title: "",
+      description: ""
     },
     {
-      year: "2024",
-      title: "IoT Integration",
-      description: "Advanced to Raspberry Pi-based system with cloud connectivity and real-time data synchronization capabilities."
+      year: "",
+      title: "",
+      description: ""
     },
     {
-      year: "Future",
-      title: "Commercial Launch",
-      description: "Planning commercial release with FDA approval, advanced AI predictions, and expanded sensor capabilities."
+      year: "",
+      title: "",
+      description: ""
     }
   ];
 
@@ -137,7 +137,7 @@ export default function AboutPage() {
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full"></div>
-                      <span className="text-sm">Hackathon Winner - Healthcare Innovation 2023</span>
+                      <span className="text-sm"></span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-secondary rounded-full"></div>
@@ -145,7 +145,7 @@ export default function AboutPage() {
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
-                      <span className="text-sm">Featured in TechCrunch Health Innovation Summit</span>
+                      <span className="text-sm"></span>
                     </div>
                   </div>
                 </div>
